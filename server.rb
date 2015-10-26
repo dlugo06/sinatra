@@ -1,10 +1,10 @@
 require 'sinatra'
 
-get '/this' do
-  "Hello World"
+get '/' do
+  File.read(File.join('public', 'index.html'))
 end
 
-get '/' do
+get '/this' do
   "Hello World"
 end
 
