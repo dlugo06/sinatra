@@ -1,3 +1,5 @@
 This is a static file in the git repo's /public/ directory
 
 Hello World! Yo!
+
+TEEEXTFILE
